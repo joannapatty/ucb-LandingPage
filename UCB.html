@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UC Student Voice — University of Cebu Feedback Portal <img src="University-of-Cebu-Logo.jpg" alt="University of Cebu Logo" class="nav-logo"/></title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" href="University-of-Cebu-Logo.jpg">
+  
+</head>
+<body>
+ 
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="nav-brand">
+        <img src="University-of-Cebu-Logo.jpg" alt="University of Cebu Logo" class="nav-logo"/>
+        <div class="nav-name">
+          <span class="nav-uni">University of Cebu</span>
+          <span class="nav-sub">Student Voice Portal</span>
+        </div>
+      </div>
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#submit" class="nav-cta">Submit Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot" aria-hidden="true"></span>
+        Your Voice Matters
+      </div>
+      <h1 id="hero-heading" class="hero-title">
+        Share Your <em>Thoughts.</em><br/>
+        Shape UC's Future.
+      </h1>
+      <p class="hero-desc">
+        A dedicated space for University of Cebu students to raise concerns,
+        celebrate events, and send feedback on grades, tuition, the school portal,
+        and everything in between.
+      </p>
+      <div class="hero-actions">
+        <a href="#submit" class="btn btn-primary">Submit Feedback</a>
+        <a href="#about" class="btn btn-ghost">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-stats" aria-label="Portal statistics">
+      <div class="stat-item">
+        <strong class="stat-value">500+</strong>
+        <span class="stat-label">Submissions Received</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <strong class="stat-value">80%</strong>
+        <span class="stat-label">Concerns Addressed</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <strong class="stat-value">24h</strong>
+        <span class="stat-label">Average Response Time</span>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- MAIN -->
+  <main id="main-content">
+ 
+    <!-- ── ABOUT ── -->
+    <section class="about-section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <p class="section-label">About This Portal</p>
+        <h2 id="about-heading" class="section-title">Why Your Feedback <span>Matters</span></h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              The UC Student Voice Portal bridges the gap between students and university
+              administration. Whether you experienced a technical issue with the enrollment
+              portal, have a concern about your grades, or simply want to commend a
+              well-organized event — this is the right place.
+            </p>
+            <p>
+              All submissions are reviewed by the Student Affairs Office and forwarded to
+              the relevant department. Anonymous submissions are fully protected.
+            </p>
+          </div>
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="about-icon" aria-hidden="true">🔒</div>
+              <h3>Fully Confidential</h3>
+              <p>Anonymous submissions are never traced back to the student.</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon" aria-hidden="true">📬</div>
+              <h3>Directly Reviewed</h3>
+              <p>Every submission reaches Student Affairs within 24 hours.</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon" aria-hidden="true">✅</div>
+              <h3>Action-Oriented</h3>
+              <p>Feedback is tracked, categorized, and acted upon systematically.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ── CATEGORIES ── -->
+    <section class="categories-section" id="categories" aria-labelledby="cat-heading">
+      <div class="container">
+        <p class="section-label">Feedback Categories</p>
+        <h2 id="cat-heading" class="section-title">What Can You <span>Submit?</span></h2>
+        <p class="section-desc">Choose the category that best matches your concern. Each is routed to the appropriate UC department.</p>
+        <div class="cat-grid" role="list">
+          <article class="cat-card" role="listitem">
+            <div class="cat-icon-wrap cat-blue" aria-hidden="true">🖥</div>
+            <h3 class="cat-name">School Portal</h3>
+            <p class="cat-desc">Login issues, enrollment errors, system bugs, and portal downtime.</p>
+            <span class="cat-tag">Technical</span>
+          </article>
+          <article class="cat-card" role="listitem">
+            <div class="cat-icon-wrap cat-yellow" aria-hidden="true">📋</div>
+            <h3 class="cat-name">Grades</h3>
+            <p class="cat-desc">Grade discrepancies, delayed uploads, re-exam concerns, and GWA issues.</p>
+            <span class="cat-tag">Academic</span>
+          </article>
+          <article class="cat-card" role="listitem">
+            <div class="cat-icon-wrap cat-orange" aria-hidden="true">💳</div>
+            <h3 class="cat-name">Tuition &amp; Fees</h3>
+            <p class="cat-desc">Payment receipts, billing errors, scholarship concerns, and fee inquiries.</p>
+            <span class="cat-tag">Finance</span>
+          </article>
+          <article class="cat-card" role="listitem">
+            <div class="cat-icon-wrap cat-green" aria-hidden="true">🎉</div>
+            <h3 class="cat-name">Events</h3>
+            <p class="cat-desc">Feedback on university events, programs, and campus activities.</p>
+            <span class="cat-tag">Campus Life</span>
+          </article>
+          <article class="cat-card" role="listitem">
+            <div class="cat-icon-wrap cat-purple" aria-hidden="true">🏫</div>
+            <h3 class="cat-name">Facilities</h3>
+            <p class="cat-desc">Classrooms, labs, restrooms, WiFi, and general infrastructure.</p>
+            <span class="cat-tag">Facilities</span>
+          </article>
+          <article class="cat-card" role="listitem">
+            <div class="cat-icon-wrap cat-gray" aria-hidden="true">💬</div>
+            <h3 class="cat-name">Other Concerns</h3>
+            <p class="cat-desc">Faculty conduct, student services, safety, or general suggestions.</p>
+            <span class="cat-tag">General</span>
+          </article>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ── HOW IT WORKS ── -->
+    <section class="how-section" id="how" aria-labelledby="how-heading">
+      <div class="container">
+        <p class="section-label">Process</p>
+        <h2 id="how-heading" class="section-title">How It <span>Works</span></h2>
+        <ol class="steps-list" role="list">
+          <li class="step-item">
+            <div class="step-number" aria-hidden="true">01</div>
+            <div class="step-content">
+              <h3>Fill Out the Form</h3>
+              <p>Choose a category, write your subject and detailed message, and optionally add your name and email.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-number" aria-hidden="true">02</div>
+            <div class="step-content">
+              <h3>Choose Anonymity</h3>
+              <p>Decide whether to include your name or submit anonymously. Both are valid and equally protected.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-number" aria-hidden="true">03</div>
+            <div class="step-content">
+              <h3>We Review &amp; Act</h3>
+              <p>Your submission is received by Student Affairs and forwarded to the right department within 24 hours.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-number" aria-hidden="true">04</div>
+            <div class="step-content">
+              <h3>Resolution &amp; Follow-Up</h3>
+              <p>Named submissions receive a follow-up email. All issues are logged and tracked until resolved.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+ 
+    <!-- ── SUBMIT FORM ── -->
+    <section class="form-section" id="submit" aria-labelledby="form-heading">
+      <div class="container">
+        <p class="section-label">Submit Your Feedback</p>
+        <h2 id="form-heading" class="section-title">We're <span>Listening</span></h2>
+        <div class="form-layout">
+ 
+          <div class="form-card">
+            <div class="form-card-header">
+              <div class="form-card-icon" aria-hidden="true">✍️</div>
+              <div>
+                <h3>Feedback Form</h3>
+                <p>Anonymous or identified — your choice.</p>
+              </div>
+            </div>
+ 
+            <form class="feedback-form" action="#" method="post" novalidate>
+ 
+              <fieldset class="field-group">
+                <legend class="field-label">Category <span class="req" aria-label="required">*</span></legend>
+                <div class="cat-options">
+                  <label class="cat-radio-label">
+                    <input type="radio" name="category" value="portal" checked/>
+                    <span>🖥 Portal</span>
+                  </label>
+                  <label class="cat-radio-label">
+                    <input type="radio" name="category" value="grades"/>
+                    <span>📋 Grades</span>
+                  </label>
+                  <label class="cat-radio-label">
+                    <input type="radio" name="category" value="tuition"/>
+                    <span>💳 Tuition</span>
+                  </label>
+                  <label class="cat-radio-label">
+                    <input type="radio" name="category" value="events"/>
+                    <span>🎉 Events</span>
+                  </label>
+                  <label class="cat-radio-label">
+                    <input type="radio" name="category" value="facilities"/>
+                    <span>🏫 Facilities</span>
+                  </label>
+                  <label class="cat-radio-label">
+                    <input type="radio" name="category" value="other"/>
+                    <span>💬 Other</span>
+                  </label>
+                </div>
+              </fieldset>
+ 
+              <div class="field">
+                <label class="field-label" for="subject">Subject <span class="req" aria-label="required">*</span></label>
+                <input type="text" id="subject" name="subject" class="field-input" placeholder="Brief title of your concern" required aria-required="true"/>
+              </div>
+ 
+              <div class="field">
+                <label class="field-label" for="message">Message <span class="req" aria-label="required">*</span></label>
+                <textarea id="message" name="message" class="field-input field-textarea" placeholder="Describe your concern or feedback in detail..." required aria-required="true" rows="5"></textarea>
+              </div>
+ 
+              <div class="field">
+                <label class="field-label" for="fname">Your Name <span class="optional">(optional)</span></label>
+                <input type="text" id="fname" name="name" class="field-input" placeholder="Leave blank to submit anonymously"/>
+              </div>
+ 
+              <div class="field">
+                <label class="field-label" for="email">Email Address <span class="optional">(optional — for follow-up)</span></label>
+                <input type="email" id="email" name="email" class="field-input" placeholder="yourname@ucb.edu.ph"/>
+              </div>
+ 
+              <div class="anon-notice" role="note">
+                <span aria-hidden="true">🔒</span>
+                Submissions without a name are fully anonymous and cannot be traced back to you.
+              </div>
+ 
+              <button type="submit" class="btn btn-primary btn-full">Submit Feedback →</button>
+ 
+            </form>
+          </div>
+ 
+          <!-- SIDEBAR -->
+          <aside class="form-sidebar" aria-label="Submission guidelines and contact">
+            <div class="sidebar-block">
+              <h3 class="sidebar-title">📌 Guidelines</h3>
+              <ul class="guideline-list" role="list">
+                <li class="guideline-item">
+                  <span class="guideline-icon" aria-hidden="true">✅</span>
+                  Be specific — include dates or details where relevant.
+                </li>
+                <li class="guideline-item">
+                  <span class="guideline-icon" aria-hidden="true">🤝</span>
+                  Be respectful — constructive feedback leads to faster resolutions.
+                </li>
+                <li class="guideline-item">
+                  <span class="guideline-icon" aria-hidden="true">🔒</span>
+                  Anonymous submissions are fully protected and confidential.
+                </li>
+                <li class="guideline-item">
+                  <span class="guideline-icon" aria-hidden="true">📬</span>
+                  All concerns are reviewed within 24 hours by Student Affairs.
+                </li>
+                <li class="guideline-item">
+                  <span class="guideline-icon" aria-hidden="true">🚫</span>
+                  Do not submit personal data of other students without consent.
+                </li>
+              </ul>
+            </div>
+ 
+            <div class="sidebar-block sidebar-contact">
+              <h3 class="sidebar-title">📞 Direct Contact</h3>
+              <p>For urgent concerns, reach the Student Affairs Office directly:</p>
+              <address>
+                <p><strong>Email:</strong> <a href="mailto:studentaffairs@uc.edu.ph">studentaffairs@ucb.edu.ph</a></p>
+                <p><strong>Phone:</strong> (0999) 719-7590</p>
+                <p><strong>Office:</strong> Admin Building, 2nd Floor</p>
+                <p><strong>Hours:</strong> Mon–Fri, 8:00 AM – 5:00 PM</p>
+              </address>
+            </div>
+          </aside>
+ 
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ── COMMUNITY BOARD ── -->
+    <section class="feed-section" aria-labelledby="feed-heading">
+      <div class="container">
+        <p class="section-label">Community Board</p>
+        <h2 id="feed-heading" class="section-title">Recent <span>Submissions</span></h2>
+        <p class="section-desc">A snapshot of recent student concerns and feedback submitted through this portal.</p>
+        <div class="feed-grid">
+ 
+          <article class="feed-card">
+            <header class="feed-card-top">
+              <span class="feed-cat feed-cat-blue">🖥 Portal</span>
+              <span class="feed-status feed-pending">⏳ In Review</span>
+            </header>
+            <h3 class="feed-subject">Cannot access enrollment portal during peak hours</h3>
+            <p class="feed-body">The enrollment portal keeps showing a 503 error every time I try to log in. This has been happening for 3 days and my enrollment is at risk.</p>
+            <footer class="feed-card-footer">
+              <span class="feed-author">Anonymous Student</span>
+              <span class="feed-time">2 hours ago</span>
+              <span class="feed-votes" aria-label="24 upvotes">▲ 24</span>
+            </footer>
+          </article>
+ 
+          <article class="feed-card">
+            <header class="feed-card-top">
+              <span class="feed-cat feed-cat-green">🎉 Events</span>
+              <span class="feed-status feed-resolved">✓ Resolved</span>
+            </header>
+            <h3 class="feed-subject">Intramurals Days celebration was outstanding!</h3>
+            <p class="feed-body">The Intramurals Days event was incredibly well-organized. The performances and booths were top notch. Thank you to all the organizers!</p>
+            <footer class="feed-card-footer">
+              <span class="feed-author">Anonymous Student</span>
+              <span class="feed-time">1 day ago</span>
+              <span class="feed-votes" aria-label="41 upvotes">▲ 41</span>
+            </footer>
+          </article>
+ 
+          <article class="feed-card">
+            <header class="feed-card-top">
+              <span class="feed-cat feed-cat-orange">💳 Tuition</span>
+              <span class="feed-status feed-pending">⏳ In Review</span>
+            </header>
+            <h3 class="feed-subject">Tuition payment receipt not sent via email</h3>
+            <p class="feed-body">I paid my tuition last Friday via online banking but still have not received a receipt or confirmation email. Please check the payment system.</p>
+            <footer class="feed-card-footer">
+              <span class="feed-author">Joanna P.</span>
+              <span class="feed-time">5 hours ago</span>
+              <span class="feed-votes" aria-label="18 upvotes">▲ 18</span>
+            </footer>
+          </article>
+ 
+          <article class="feed-card">
+            <header class="feed-card-top">
+              <span class="feed-cat feed-cat-yellow">📋 Grades</span>
+              <span class="feed-status feed-pending">⏳ In Review</span>
+            </header>
+            <h3 class="feed-subject">Grade not updated after re-examination</h3>
+            <p class="feed-body">I completed my re-examination two weeks ago but my grade in the system still reflects the original failing mark. Please update accordingly.</p>
+            <footer class="feed-card-footer">
+              <span class="feed-author">Anonymous Student</span>
+              <span class="feed-time">1 day ago</span>
+              <span class="feed-votes" aria-label="15 upvotes">▲ 15</span>
+            </footer>
+          </article>
+ 
+          <article class="feed-card">
+            <header class="feed-card-top">
+              <span class="feed-cat feed-cat-purple">🏫 Facilities</span>
+              <span class="feed-status feed-pending">⏳ In Review</span>
+            </header>
+            <h3 class="feed-subject">Library aircon on 3rd floor not working</h3>
+            <p class="feed-body">The AC units on the 3rd floor of the main library have not been working for over a week. It is extremely uncomfortable for students studying there.</p>
+            <footer class="feed-card-footer">
+              <span class="feed-author">Russle N.</span>
+              <span class="feed-time">2 days ago</span>
+              <span class="feed-votes" aria-label="33 upvotes">▲ 33</span>
+            </footer>
+          </article>
+ 
+          <article class="feed-card">
+            <header class="feed-card-top">
+              <span class="feed-cat feed-cat-green">🎉 Events</span>
+              <span class="feed-status feed-resolved">✓ Resolved</span>
+            </header>
+            <h3 class="feed-subject">Request for more student org fairs this semester</h3>
+            <p class="feed-body">Many freshmen are unaware of the student organizations available on campus. A semestral org fair would help encourage students to get involved.</p>
+            <footer class="feed-card-footer">
+              <span class="feed-author">Amethyst L.</span>
+              <span class="feed-time">3 days ago</span>
+              <span class="feed-votes" aria-label="27 upvotes">▲ 27</span>
+            </footer>
+          </article>
+ 
+        </div>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <img src="University-of-Cebu-Logo.jpg" alt="University of Cebu Logo" class="footer-logo"/>
+        <div class="footer-brand-text">
+          <strong>University of Cebu</strong>
+          <span>Student Voice Portal</span>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#categories">Categories</a>
+        <a href="#how">How It Works</a>
+        <a href="#submit">Submit</a>
+        <a href="mailto:studentaffairs@ucb.edu.ph">Contact</a>
+      </nav>
+      <p class="footer-copy">
+        &copy; 2026 University of Cebu &mdash; All submissions are confidential.<br/>
+        Managed by the Student Affairs Office.
+      </p>
+    </div>
+  </footer>
+ 
+</body>
+</html>
+ 
